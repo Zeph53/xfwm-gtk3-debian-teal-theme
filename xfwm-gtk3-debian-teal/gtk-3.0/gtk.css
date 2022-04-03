@@ -6728,7 +6728,7 @@ base background color of selections */
 @define-color theme_selected_bg_color #01a495;
 /*
 text/foreground color of selections */
-@define-color theme_selected_fg_color #000000;
+@define-color theme_selected_fg_color #01a495;
 /*
 base background color of insensitive widgets */
 @define-color insensitive_bg_color #242731;
