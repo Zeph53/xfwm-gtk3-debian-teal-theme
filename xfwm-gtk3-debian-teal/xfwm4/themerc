@@ -1,0 +1,67 @@
+#
+## Identifiers
+active_text_color=active_text_color_2
+active_text_shadow_color=active_hilight_2
+active_border_color=active_border_color_2
+active_color=active_color_2
+active_hilight=active_hilight_2
+active_mid=active_mid_2
+active_shadow=active_shadow_2
+inactive_text_color=inactive_text_color_2
+inactive_text_shadow_color=inactive_hilight_2
+inactive_border_color=inactive_border_color_2
+inactive_color=inactive_color_2
+inactive_hilight=inactive_hilight_2
+inactive_mid=inactive_mid_2
+inactive_shadow=inactive_shadow_2
+
+#
+## Theme Colours.
+active_text_color_2=#01a495
+active_border_color=#01a495
+active_color_2=#23242d
+active_hilight_2=#23242d
+active_mid_2=#
+active_shadow_2=#
+inactive_text_color_2=#323643
+inactive_border_color=#323643
+inactive_color_2=#23242d
+inactive_hilight_2=#23242d
+inactive_mid_2=#
+inactive_shadow_2=#
+
+#
+##  Force a specific layout of the buttons.
+##  O = Option menu
+##  T = Stick
+##  H = Hide
+##  S = Shade
+##  M = Maximize
+##  C = Close
+##  | = Title
+##  button_layout=OTS|HMC
+# button_layout=
+
+#
+## Window title bar options.
+#title_full_width=true
+#full_width_title=true
+title_shadow_active=under
+title_shadow_inactive=under
+title_vertical_offset_active=1
+title_vertical_offset_inactive=1
+title_horizontal_offset=-4
+button_spacing=0
+button_offset=0
+maximized_offset=0
+show_app_icon=false
+frame_border_top=5
+frame_opacity=100
+
+#
+## Shadows.
+shadow_delta_height=0
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=0
+shadow_opacity=0
