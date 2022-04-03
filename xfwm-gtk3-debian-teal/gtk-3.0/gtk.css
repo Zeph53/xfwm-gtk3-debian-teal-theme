@@ -2536,12 +2536,14 @@ scrollbar {
       background-color: transparent; }
   scrollbar.fine-tune slider {
     transition: none;
-    min-width: 0px;
-    min-height: 0px; }
+    min-width:;
+    min-height:; }
+    scrollbar.fine-tune slider:hover {
+      background-color: #fd7d00; }
   scrollbar.fine-tune.horizontal slider {
-    border-width: 0px 0px; }
+    border-width:; }
   scrollbar.fine-tune.vertical slider {
-    border-width: 0px 0px; }
+    border-width:; }
   scrollbar.overlay-indicator:not(.dragging):not(.hovering) {
     border-color: transparent;
     opacity: 0.4;
@@ -2575,9 +2577,9 @@ scrollbar {
   scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
     opacity: 0.8; }
   scrollbar.horizontal slider {
-    min-width: 40px; }
+    min-width: 20px; }
   scrollbar.vertical slider {
-    min-height: 40px; }
+    min-height: 20px; }
   scrollbar button {
     padding: 0;
     min-width: 12px;
