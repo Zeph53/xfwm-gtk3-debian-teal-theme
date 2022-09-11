@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skeuos-debian11-Dark
+Comment=Skeuos-debian11-Dark theme"
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Skeuos-debian11-Dark
+MetacityTheme=Skeuos-debian11-Dark
+IconTheme=Flat-Remix-debian11-Dark
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close

@@ -1,0 +1,168 @@
+* {
+  color: #01a495; }
+*:backdrop {
+  color: #eeeeec; }
+
+statusbar {
+    border-top: 1px transparent @borders; }
+
+XfdesktopIconView.view {
+  background-color: transparent;
+  color: #01a495;
+  text-shadow: 0 1px 2px black; }
+
+XfdesktopIconView.label:active {
+  background-color: rgba(1, 164, 149, 0.3);
+  color: #000000; }
+
+.view:selected:focus, .view:selected,
+.view text:selected:focus,
+textview text:selected:focus,
+.view text:selected,
+textview text:selected, .view text selection:focus, .view text selection,
+textview text selection:focus,
+textview text selection, iconview:selected:focus, iconview:selected, iconview text selection:focus, iconview text selection, flowbox flowboxchild:selected,
+entry selection, modelbutton.flat:selected,
+.menuitem.button.flat:selected, spinbutton:not(.vertical) selection, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected {
+  background-color: #01a495; }
+  .view:selected:focus:backdrop, .view:selected:backdrop, .view text:selected:focus:backdrop, textview text:selected:focus:backdrop, .view text:selected:backdrop, textview text:selected:backdrop, .view text selection:focus:backdrop, .view text selection:backdrop, textview text selection:focus:backdrop, textview text selection:backdrop, iconview:selected:focus:backdrop, iconview:selected:backdrop, iconview text selection:focus:backdrop, iconview text selection:backdrop, flowbox flowboxchild:selected:backdrop, entry selection:backdrop, modelbutton.flat:selected:backdrop, .menuitem.button.flat:selected:backdrop, spinbutton:not(.vertical) selection:backdrop, treeview.view:selected:focus:backdrop, treeview.view:selected:backdrop, row:selected:backdrop, calendar:selected:backdrop {
+    background-color: #323643; }
+  label:selected, .selection-mode button.titlebutton, .view:selected:focus, .view:selected,
+  .view text:selected:focus,
+  textview text:selected:focus,
+  .view text:selected,
+  textview text:selected, .view text selection:focus, .view text selection,
+  textview text selection:focus,
+  textview text selection, iconview:selected:focus, iconview:selected, iconview text selection:focus, iconview text selection, flowbox flowboxchild:selected,
+  entry selection, modelbutton.flat:selected,
+  .menuitem.button.flat:selected, spinbutton:not(.vertical) selection, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected {
+    color: #000000; }
+
+frame > border, .frame {
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 1px solid #01a495; }
+  frame > border.flat, .frame.flat {
+    border-style: none; }
+  frame > border:backdrop, .frame:backdrop {
+    border-color: #323643; }
+
+.view, iconview,
+.view text,
+iconview text,
+textview text {
+  color: #01a495;
+  background-color: #272a34; }
+  .view:backdrop, iconview:backdrop,
+  .view text:backdrop,
+  iconview text:backdrop,
+  textview text:backdrop {
+    color: white;
+    background-color: #292c37; }
+
+/* XFCE4 PANEL */
+.xfce4-panel.background {
+  background: rgb(35, 37, 46); }
+
+infobar.question > revealer > box, infobar.question > revealer > box, infobar.warning > revealer > box, infobar.warning > revealer > box, infobar.question.action:hover > revealer > box, infobar.question.action:hover > revealer > box, infobar.warning.action:hover > revealer > box, infobar.warning.action:hover > revealer > box {
+  background-color: #01a495; }
+infobar.question:backdrop > revealer > box, infobar.warning:backdrop > revealer > box, infobar.question.action:hover:backdrop > revealer > box, 
+infobar.warning.action:hover:backdrop > revealer > box {
+  background-color: #323643; }
+
+  infobar > revealer > box label, infobar > revealer > box, infobar > revealer > box label, infobar > revealer > box, infobar.info > revealer > box label, infobar.info > revealer > box, infobar.info > revealer > box label, infobar.info > revealer > box, infobar.question > revealer > box label, infobar.question > revealer > box, infobar.question > revealer > box label, infobar.question > revealer > box, infobar.warning > revealer > box label, infobar.warning > revealer > box, infobar.warning > revealer > box label, infobar.warning > revealer > box, infobar.error > revealer > box label, infobar.error > revealer > box, infobar.error > revealer > box label, infobar.error > revealer > box {
+    color: #000000; }
+
+infobar:backdrop > revealer > box label, infobar:backdrop > revealer > box, infobar,
+infobar.info:backdrop > revealer > box label, infobar.info:backdrop > revealer > box, 
+infobar.question:backdrop > revealer > box label, infobar.warning:backdrop > revealer > box label, 
+infobar.warning:backdrop > revealer > box, infobar.error:backdrop > revealer > box label, 
+infobar.error:backdrop > revealer > box labelm infobar.error:backdrop > revealer > box {
+    color: #eeeeec; }
+
+    menu menuitem:hover,
+    .menu menuitem:hover,
+    .context-menu menuitem:hover {
+      color: #000000;
+      background-color: #01a495; }
+
+.xfce4-panel.background {
+  background: rgb(35, 37, 46); }
+.xfce4-panel button {
+  border: 0;
+  border-radius: 0;
+  min-width: 30px;
+  box-shadow: none;
+  text-shadow: none;
+  background: transparent;
+  color: #01a495; }
+  .xfce4-panel button:hover {
+    background: rgba(1, 164, 149, 0.2); }
+  .xfce4-panel button:not(#whiskermenu-button):checked, .xfce4-panel button:not(#whiskermenu-button):active {
+    box-shadow: inset 0 -2px 0 #01a495;
+    background: rgba(0, 0, 0, 0.2); }
+
+#whiskermenu-window entry {
+  border-radius: 100px;
+  border: 2px solid #01a495;
+  box-shadow: none; }
+
+#whiskermenu-window button {
+  transition-duration: 0.25s; }
+  #whiskermenu-window button:hover {
+    color: white;
+    border-color: black;
+    background-color: transparent;
+    background-image: image(#01a495);
+    background-clip: padding-box;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 1px black;
+    -gtk-icon-shadow: 0 1px black;
+    outline-color: rgba(255, 255, 255, 0.3);
+    border-color: transparent;
+    border-bottom-color: #1c1e25; }
+  #whiskermenu-window button:checked {
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+    background-color: #01a495;
+    border-color: transparent; }
+
+#whiskermenu-window scrolledwindow.frame {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 7px 10px;
+  margin: 0 5px; }
+  #whiskermenu-window scrolledwindow.frame, #whiskermenu-window scrolledwindow.frame iconview:not(:hover):not(:focus) {
+    background: #1c1e25; }
+  #whiskermenu-window scrolledwindow.frame treeview {
+    background: transparent;
+    border-radius: 4px; }
+    #whiskermenu-window scrolledwindow.frame treeview:hover, #whiskermenu-window scrolledwindow.frame treeview:active, #whiskermenu-window scrolledwindow.frame treeview:selected {
+      background-color: rgba(1, 164, 149, 0.2);
+      color: inherit; }
+
+
+
+window.background.csd > headerbar.titlebar > button.text-button.suggested-action > label,
+dialog.background.csd > headerbar.titlebar > button.suggested-action > label,
+dialog.background.csd > headerbar.titlebar > button.suggested-action > widget > box.horizontal > label,
+dialog.background.csd > headerbar.titlebar > button.suggested-action.default,
+dialog.background.csd > headerbar.titlebar > button.suggested-action.default > widget > box.horizontal > label {
+  color: #000000; }
+window.background.csd > box.vertical > grid.horizontal > switch,
+window.background.csd > box.vertical > grid.horizontal > switch > slider {
+  box-shadow: none; }
+window:backdrop.background.csd > box:backdrop.vertical > grid:backdrop.horizontal > switch:backdrop > image:backdrop {
+  color: transparent; }
+window.mousepad.background > box.vertical > widget,
+window:backdrop.background.thunar > grid.horizontal > toolbar.horizontal > toolbutton > button.flat.image-button > image,
+window.background.csd > headerbar.titlebar > button:insensitive.text-button.suggested-action > label:insensitive {
+  color: #43495a; }
+window.background.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > box.horizontal > entry > image,
+window.background.thunar > grid.horizontal > toolbar.horizontal > toolbutton > button.flat.image-button > image {
+  color: #01a495; }
+window.mousepad.background > box.vertical > widget > label {
+  background-color: #01a495;
+  opacity: 0.5; }
