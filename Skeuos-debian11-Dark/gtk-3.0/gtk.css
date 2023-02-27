@@ -7190,3 +7190,17 @@ window.mousepad.background > box.vertical > widget > label {
 window.mousepad.background > box:backdrop.vertical > widget:backdrop,
 window.mousepad.background > box:backdrop.vertical > widget:backdrop > label:backdrop {
   background-color: #323643; }
+
+
+.xfce4-panel.background .tasklist button {}
+.xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked {}
+.tasklist {
+  -XfceTasklist-max-button-size: 16;
+  -XfceTasklist-max-button-length: 10000; }
+.tasklist label {}
+.xfce4-panel.background .tasklist image {
+  -gtk-icon-transform: scale(0.5); }
+
+
+
+
