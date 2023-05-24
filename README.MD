@@ -3,7 +3,7 @@
 A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the new Debian version of teal  
 (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders,  
 large square coloured buttons, a generic title menu button, simply in .XPM text format.  
-
+##
 
 ## Install  
 #### Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into: "/usr/share/themes/"  
