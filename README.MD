@@ -5,8 +5,8 @@ A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the 
 large square coloured buttons, a generic title menu button, simply in .XPM text format.
 
 ## Install
-#### Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into: "/usr/share/themes/Skeuos-debian11-Dark"
-#### Alternatively, I think you can extract it into your own home directory: "~/local/share/themes/Skeuos-debian11-Dark"
+#### Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into: "/usr/share/themes/"
+#### Alternatively, I think you can extract the directory "Skeuos-debian11-Dark" into your own home directory: "~/local/share/themes/"
 
 ## Uninstall
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/". 
