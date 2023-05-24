@@ -8,7 +8,7 @@ A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, th
 
 
 ## Requirements
-This theme was designed for solely Debian-12-Testing with XFCE4/GTK3/GTK2 as a desktop environment. It can be ported relatively easily, or used as-is in most circumstances.
+This theme was designed for solely Debian-12-Testing with XFCE4/GTK3/GTK2 as a desktop environment. It can be ported relatively easily, or used as-is in most circumstances.  
 
 
 ## Install  
@@ -27,7 +27,7 @@ This theme was designed for solely Debian-12-Testing with XFCE4/GTK3/GTK2 as a d
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark  
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/.local/share/themes/".  
     sudo gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark  
-#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. 
+#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated.  
 #### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop  
 
@@ -44,7 +44,8 @@ Now with appropriately large square shaped coloured scrollbars.
 ## Update Queue  
 There are a lot of "OK" buttons with the wrong foreground colours.  
 
-## Bugs
-#### If there are any bugs, feel free to report them!
+
+## Issues / Bugs  
+#### If there are any bugs, feel free to report them, and they will be added here before going upstream!  
 
 ##
