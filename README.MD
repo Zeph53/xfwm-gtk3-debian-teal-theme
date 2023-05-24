@@ -46,7 +46,7 @@ There are a lot of "OK" buttons with the wrong foreground colours.
 
 
 ## Issues / Bugs  
-#### If there are any bugs, feel free to report them, and they will be added here before going upstream!  
+#### If there are any bugs, feel free to report them, and they will be added here before going downstream!  
 
 
 ##
