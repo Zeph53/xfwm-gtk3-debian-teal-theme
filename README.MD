@@ -20,6 +20,9 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
     git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/
     cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark ~/.local/share/themes/
     gio trash --force xfwm-gtk3-debian-teal-theme/
+#### After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory, the cache of installed themes needs to be updated.  
+#### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+    sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
 ## Uninstall  
