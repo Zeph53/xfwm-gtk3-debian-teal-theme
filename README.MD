@@ -8,7 +8,7 @@ A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, th
 
 
 ## Requirements
-This theme was designed for solely Debian 12 with XFCE4/GTK3/GTK2 as a desktop environment. It can be ported relatively easily.
+This theme was designed for solely Debian-12-Testing with XFCE4/GTK3/GTK2 as a desktop environment. It can be ported relatively easily, or used as-is in most circumstances.
 
 
 ## Install  
