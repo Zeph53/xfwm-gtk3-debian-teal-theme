@@ -9,7 +9,8 @@ echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
 ## Install
 #### Simply download/clone the repository and extract the directory "Skeuos-debian11-Dark" into:
 "/usr/share/themes/Skeuos-debian11-Dark"
-Alternatively
+#### Alternatively, I think you can extract it into your own home folder:
+"~/local/share/themes/Skeuos-debian11-Dark"
 
 ## Updates
 Now with appropriately coloured scrollbars. They're also YUGE.
