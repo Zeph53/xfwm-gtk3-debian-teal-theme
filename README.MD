@@ -5,9 +5,7 @@
 
 
 
-A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal  
-(#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders,  
-large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format.  
+A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format.  
 
 
 ## Install  
