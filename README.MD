@@ -1,3 +1,4 @@
+##
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
 
@@ -34,9 +35,10 @@ A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, th
 
 
 ## Updates  
-Now with appropriately coloured scrollbars. They're also large and square shaped.  
+Now with appropriately large square shaped coloured scrollbars.  
 
 
-## Update Queue
-There are a lot of "OK" buttons with the wrong foreground colours.
+## Update Queue  
+There are a lot of "OK" buttons with the wrong foreground colours.  
 
+##
