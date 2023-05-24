@@ -1,6 +1,6 @@
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
-#
+
 <a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/557fb16f-4c9c-4c8a-96ac-94b9f1f59d68" align="left" height="96" width="96" ></a> 
 <a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/3c67318e-2ddb-4cc7-8c5e-b3eea7fdb8f0" align="left" height="96" width="96" ></a>  
 #
