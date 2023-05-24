@@ -10,8 +10,8 @@ large square coloured buttons, a generic title menu button, simply in .XPM text 
     sudo git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/  
     sudo cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /usr/share/themes/  
 #### Alternatively, I think you can extract the directory "Skeuos-debian11-Dark" into your own home directory: "~/local/share/themes/"  
-    sudo git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/  
-    sudo cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /local/share/themes/  
+    git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/  
+    cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /local/share/themes/  
 
 ## Uninstall  
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".  
