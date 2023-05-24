@@ -35,7 +35,10 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
 ## Troubleshooting  
 #### To embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.  
     sudo echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment  
-
+#### If there are mixmatched foreground or background colours, or any other issues, report the issue through the repository issue reporting page on GitHub. You may be asked to supply a screenshot of the "CSS Selector" section of "GtkInspector". You may need to install "GtkInspector":  
+    sudo apt install --install-recommends libgtk-3-dev
+#### After installing "GtkInspector", it needs to be enabled within GTK:
+    gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
 
 ## Updates  
 Now with appropriately large square shaped coloured scrollbars.  
