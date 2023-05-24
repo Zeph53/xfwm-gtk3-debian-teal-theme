@@ -41,7 +41,7 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
 Now with appropriately large square shaped coloured scrollbars.  
 
 
-## Update Queue  
+## Updates Queue  
 There are a lot of "OK" buttons with the wrong foreground colours.  
 
 
@@ -49,4 +49,4 @@ There are a lot of "OK" buttons with the wrong foreground colours.
 #### If there are any bugs, feel free to report them, and they will be added here before going downstream!  
 
 
-##
+##  
