@@ -26,12 +26,12 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
 
 
 ## Troubleshooting  
-#### Run this command to embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.  
+#### To embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.  
     sudo echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment  
 
 
 ## Updates  
-Now with appropriately coloured scrollbars. They're also YUGE.  
+Now with appropriately coloured scrollbars. They're also large and square shaped.  
 
 
 ## Update Queue
