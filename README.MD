@@ -12,14 +12,16 @@ large square coloured buttons, a generic title menu button, simply in .XPM text 
 
 ## Uninstall
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/". 
-  Reboot the system, log out of your user account, or change your currently selected theme in order to update the list of themes.
 sudo gio trash --force "/usr/share/themes/Skeuos-debian11-Dark"
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/local/share/themes/".
 sudo gio trash --force "~/local/share/themes/Skeuos-debian11-Dark"
 
+#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. You can do this by rebooting the system, logging out of your user account, or execute this one-liner to restart theme related processes:
+sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
+
 ## Troubleshooting
 #### Run this command to embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.
-echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
+sudo echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
 
 ## Updates
 Now with appropriately coloured scrollbars. They're also YUGE.
