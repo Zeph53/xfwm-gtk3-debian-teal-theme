@@ -3,7 +3,7 @@
 A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the new Debian version of teal  
 (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders,  
 large square coloured buttons, a generic title menu button, simply in .XPM text format.  
-##
+
 
 ## Install  
 #### Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into: "/usr/share/themes/"  
@@ -13,12 +13,12 @@ large square coloured buttons, a generic title menu button, simply in .XPM text 
     git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/  
     cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /local/share/themes/  
 
+
 ## Uninstall  
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".  
     sudo gio trash --force "/usr/share/themes/Skeuos-debian11-Dark"  
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/local/share/themes/".  
     sudo gio trash --force "~/local/share/themes/Skeuos-debian11-Dark"  
-
 #### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated.  
 This can be done by rebooting the system, logging out of your user account, changing your selected theme, or execute this one-liner to  
 restart theme related processes:  
