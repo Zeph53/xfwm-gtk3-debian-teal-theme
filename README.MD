@@ -8,7 +8,7 @@ A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, th
 
 
 ## Requirements
-#### This theme was designed for solely Debian 12 with XFCE/GTK3 as a desktop environment. It can be ported reletively easily.
+This theme was designed for solely Debian 12 with XFCE/GTK3 as a desktop environment. It can be ported reletively easily.
 
 
 ## Install  
@@ -43,5 +43,8 @@ Now with appropriately large square shaped coloured scrollbars.
 
 ## Update Queue  
 There are a lot of "OK" buttons with the wrong foreground colours.  
+
+## Bugs
+#### If there are any bugs, feel free to report them!
 
 ##
