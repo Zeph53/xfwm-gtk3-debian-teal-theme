@@ -8,8 +8,7 @@ A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the 
 #### Alternatively, I think you can extract it into your own home directory:
 "~/local/share/themes/Skeuos-debian11-Dark"
 
-#### Run this command to embed the scrollbars into window frames (Disable overlay scrolling).
-######## May cause issues with some programs, or not work at all anymore.
+#### Run this command to embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.
 echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
 
 ## Uninstall
