@@ -15,13 +15,14 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
     cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark ~/.local/share/themes/  
     gio trash --force xfwm-gtk3-debian-teal-theme/  
 
+
 ## Uninstall  
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".  
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark  
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/.local/share/themes/".  
     sudo gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark  
-#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. This can be done by rebooting the system, logging out of your user account, changing your selected theme, or execute this one-liner to restart theme related processes:  
-    sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
+#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. This can be done by rebooting the system, logging out of your user account, changing your selected theme, or executing this one-liner to restart theme related processes:  
+    sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop  
 
 
 ## Troubleshooting  
@@ -31,3 +32,7 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
 
 ## Updates  
 Now with appropriately coloured scrollbars. They're also YUGE.  
+
+
+## Update Queue
+There are a lot of "OK" buttons with the wrong foreground colours.
