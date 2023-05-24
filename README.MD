@@ -1,8 +1,13 @@
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
+
+
+
 A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal  
 (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders,  
 large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format.  
+
+
 
 
 ## Install  
@@ -16,6 +21,8 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
     gio trash --force xfwm-gtk3-debian-teal-theme/  
 
 
+
+
 ## Uninstall  
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".  
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark  
@@ -24,16 +31,25 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
 #### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. 
 #### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop  
-#### Rebooting typically works the best.
+
+
+
 
 ## Troubleshooting  
 #### To embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.  
     sudo echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment  
 
 
+
+
 ## Updates  
 Now with appropriately coloured scrollbars. They're also large and square shaped.  
 
 
+
+
 ## Update Queue
 There are a lot of "OK" buttons with the wrong foreground colours.
+
+
+
