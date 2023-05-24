@@ -1,6 +1,8 @@
 # XFWM-GTK3-DEBIAN-TEAL-THEME
 
-A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the new Debian version of teal (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, large square coloured buttons, a generic title menu button, simply in .XPM text format.
+A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the new Debian version of teal 
+(#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, 
+large square coloured buttons, a generic title menu button, simply in .XPM text format.
 
 ## Install
 #### Simply download/clone the repository and extract the directory "Skeuos-debian11-Dark" into:
@@ -8,14 +10,16 @@ A generated GTK3 theme using Skeuos's generator and a XFWM theme, that uses the 
 #### Alternatively, I think you can extract it into your own home directory:
 "~/local/share/themes/Skeuos-debian11-Dark"
 
-#### Run this command to embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.
-echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
-
 ## Uninstall
-#### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".
+#### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/". 
+  Reboot the system, log out of your user account, or change your currently selected theme in order to update the list of themes.
 sudo gio trash --force "/usr/share/themes/Skeuos-debian11-Dark"
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/local/share/themes/".
 sudo gio trash --force "~/local/share/themes/Skeuos-debian11-Dark"
+
+## Troubleshooting
+#### Run this command to embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.
+echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
 
 ## Updates
 Now with appropriately coloured scrollbars. They're also YUGE.
