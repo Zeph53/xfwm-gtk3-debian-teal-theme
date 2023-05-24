@@ -26,7 +26,7 @@ This theme was designed for solely Debian-12-Testing with XFCE4/GTK3/GTK2 as a d
 #### To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from "/usr/share/themes/".  
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark  
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/.local/share/themes/".  
-    sudo gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark  
+    gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark  
 #### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated.  
 #### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop  
@@ -47,5 +47,6 @@ There are a lot of "OK" buttons with the wrong foreground colours.
 
 ## Issues / Bugs  
 #### If there are any bugs, feel free to report them, and they will be added here before going upstream!  
+
 
 ##
