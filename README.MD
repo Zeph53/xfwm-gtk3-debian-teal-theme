@@ -1,13 +1,13 @@
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
 
-# <img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/557fb16f-4c9c-4c8a-96ac-94b9f1f59d68" height="270" width="480"> <img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/3c67318e-2ddb-4cc7-8c5e-b3eea7fdb8f0" height="270" width="480"> 
+# <img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/557fb16f-4c9c-4c8a-96ac-94b9f1f59d68" height="270" width="480"> <img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/3c67318e-2ddb-4cc7-8c5e-b3eea7fdb8f0" height="270" width="480">  
 
 
-A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format. It's really quite performance friendly.
+A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format. It's really quite performance friendly.  
 
 
-## Requirements
+## Requirements  
 This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK3/GTK2 as a desktop environment. It can be ported relatively easily, or used as-is in most circumstances.  
 
 
@@ -20,8 +20,7 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
     git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/
     cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark ~/.local/share/themes/
     gio trash --force xfwm-gtk3-debian-teal-theme/
-#### After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory, the cache of installed themes needs to be updated.  
-#### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+#### After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory, the cache of installed themes needs to be updated. This can be achieved by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
@@ -30,8 +29,7 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark
 #### Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in "~/.local/share/themes/".  
     gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark
-#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated.  
-#### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+#### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. This can be achieved by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
