@@ -1,8 +1,8 @@
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
 
-<a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/557fb16f-4c9c-4c8a-96ac-94b9f1f59d68" align="center" height="270" width="480" ></a> 
-<a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/3c67318e-2ddb-4cc7-8c5e-b3eea7fdb8f0" align="center" height="270" width="480" ></a>  
+<a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/557fb16f-4c9c-4c8a-96ac-94b9f1f59d68" align="middle" height="270" width="480" ></a> 
+<a href="url"><img src="https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/assets/102870900/3c67318e-2ddb-4cc7-8c5e-b3eea7fdb8f0" align="middle" height="270" width="480" ></a>  
 
 
 A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, that uses the new Debian version of teal (#01a495 - picked out of "/usr/share/images/desktop-base/default"), as well as, thick grabbable borders, large square coloured buttons, a generic title menu button. The XFWM theming is entirely in .XPM text file format.  
