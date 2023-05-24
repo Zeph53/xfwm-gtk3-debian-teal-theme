@@ -38,7 +38,7 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
 #### If there are mixmatched foreground or background colours, or any other issues, report the issue through the repository issue reporting page on GitHub. You may be asked to supply a screenshot of the "CSS Selector" section of "GtkInspector". You may need to install "GtkInspector":  
     sudo apt install --install-recommends libgtk-3-dev  
 #### After installing "GtkInspector", it needs to be enabled within GTK:  
-    gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true  
+    sudo gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true  
 #### After installing and enabling the "GtkInspector", simply press "Control-Shift-I" while a GTK applcation is focussed.  
 After it opens, on the top left of "GtkInspector" click the "Select an Object" icon.  
 Alt-tab to your GTK application with the issue, select the highlighted area problem.  
