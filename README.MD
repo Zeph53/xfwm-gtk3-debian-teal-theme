@@ -6,5 +6,10 @@ Run this command to embed the scrollbars into window frames (Disable overlay scr
 May cause issues with some programs, or not work at all anymore.
 echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
 
+## Install
+#### Simply download/clone the repository and extract the directory "Skeuos-debian11-Dark" into:
+"/usr/share/themes/Skeuos-debian11-Dark"
+Alternatively
+
 ## Updates
 Now with appropriately coloured scrollbars. They're also YUGE.
