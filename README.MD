@@ -1,4 +1,3 @@
-##
 # XFWM-GTK3-DEBIAN-TEAL-THEME  
 
 
