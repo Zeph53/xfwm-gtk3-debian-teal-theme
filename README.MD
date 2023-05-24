@@ -24,7 +24,7 @@ large square coloured buttons, a generic title menu button. The XFWM theming is 
 #### After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. 
 #### This can be done by rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop  
-
+#### Rebooting typically works the best.
 
 ## Troubleshooting  
 #### To embed the scrollbars into window frames (Disable overlay scrolling). May cause issues with some programs, or not work at all anymore.  
