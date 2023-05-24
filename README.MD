@@ -39,11 +39,7 @@ This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK
     sudo apt install --install-recommends libgtk-3-dev  
 #### After installing "GtkInspector", it needs to be enabled within GTK:  
     sudo gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true  
-#### After installing and enabling the "GtkInspector", simply press "Control-Shift-I" while a GTK applcation is focussed.  
-After it opens, on the top left of "GtkInspector" click the "Select an Object" icon.  
-Alt-tab to your GTK application with the issue, select the highlighted area problem.  
-Navigate to the dropdown on the left and select "CSS Selector".  
-Screenshot it or take note of all the text for your report.
+#### After installing and enabling the "GtkInspector", simply press "Control-Shift-I" while a GTK applcation is focussed. After it opens, on the top left of "GtkInspector" click the "Select an Object" icon. Alt-tab to your GTK application with the issue, select the highlighted area problem. Navigate to the dropdown on the left and select "CSS Selector". Screenshot it or take note of all the text for your report.  
 
 
 ## Updates  
