@@ -31,7 +31,7 @@ Alternatively, I think you can extract the directory "Skeuos-debian11-Dark" into
 After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory,  
 the cache of installed themes needs to be updated. This can be achieved by rebooting the system,  
 logging out of your user account, changing your selected theme, or restarting theme related processes:  
-#### Terminate panel, window manager, and desktop processes:  
+#### Terminate panel, window manager, and desktop processes. Then restart them:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
