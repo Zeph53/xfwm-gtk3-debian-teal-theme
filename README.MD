@@ -28,7 +28,7 @@ Alternatively, I think you can extract the directory "Skeuos-debian11-Dark" into
     gio trash --force xfwm-gtk3-debian-teal-theme/
 After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory, the cache of installed themes needs to be updated.  
 This can be achieved by:  
-Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes.  
 #### Terminate panel, window manager, and desktop processes. Then restart them:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
@@ -44,7 +44,7 @@ Or remove the directory "Skeuos-debian11-Dark" from your own local files in your
     gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark
 After uninstalling the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated.  
 This can be achieved by:  
-Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes.  
 #### Terminate panel, window manager, and desktop processes. Then restart them:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
@@ -62,7 +62,8 @@ You may need to install "GtkInspector":
 After installing "GtkInspector", it needs to be enabled within GTK3:  
 #### Enable "GtkInspector" GTK3 debugging tool through GSettings:  
     sudo gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
-After installing and enabling the "GtkInspector", while a GTK3 applcation is focussed, simply press "Control-Shift-I" OR "Control-Shift-D".  
+After installing and enabling the "GtkInspector", while a GTK3 applcation is focussed:  
+Simply press "Control-Shift-I" OR "Control-Shift-D".  
 After it opens, on the top left of "GtkInspector" click the "Select an Object" icon.  
 Alt-tab to your GTK3 application with the issue, select the highlighted area problem.  
 Navigate to the dropdown menu on the top left of "GtkInspector" and select "CSS Selector".  
