@@ -34,11 +34,11 @@ Rebooting the system, logging out of your user account, changing your selected t
 
 
 ## Uninstallation  
-To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from  
+To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from:  
 #### /usr/share/themes/  
 #### Delete theme files from the system:  
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark
-Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in  
+Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in:  
 #### ~/.local/share/themes/  
 #### Delete theme files from the home directory:  
     gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark
@@ -71,6 +71,7 @@ Screenshot it (ALT-PrintScreen) or take note of all the text for your report.
 
 ## Updates  
 Many corrections to the README.MD.  
+Created a readable README.MD.  
 Now with appropriately large square shaped coloured scrollbars.  
 
 
