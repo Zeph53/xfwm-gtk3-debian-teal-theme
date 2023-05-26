@@ -8,13 +8,14 @@ A generated GTK3 theme using Skeuos's generator, and a simplistic XFWM theme, th
 
 
 ## Requirements  
-This theme was designed for solely Debian-11-Testing (and higher) with XFCE4/GTK3/GTK2 as a desktop environment.  
+This theme was designed for solely Debian-11-Testing (and higher).  
+Using XFCE4/GTK3/GTK2 as a desktop environment.  
 It can be ported relatively easily, or used as-is in most circumstances.  
 
 
 ## Install  
 Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into:  
-"/usr/share/themes/"  
+#### "/usr/share/themes/"  
 #### Install into system theme directory:  
     sudo git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/
     sudo cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /usr/share/themes/
@@ -65,7 +66,7 @@ After installing "GtkInspector", it needs to be enabled within GTK:
 After installing and enabling the "GtkInspector", while a GTK applcation is focussed,  
 simply press "Control-Shift-I" OR "Control-Shift-D". After it opens, on the top left of "GtkInspector"  
 click the "Select an Object" icon. Alt-tab to your GTK application with the issue,  
-select the high-lighted area problem. Navigate to the dropdown menu on the left and select "CSS Selector".  
+select the highlighted area problem. Navigate to the dropdown menu on the left and select "CSS Selector".  
 Screenshot it or take note of all the text for your report.  
 
 
