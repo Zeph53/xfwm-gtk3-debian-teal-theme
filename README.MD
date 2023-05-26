@@ -55,16 +55,16 @@ To embed the scrollbars into window frames (Disable overlay scrolling), GTK3 nee
 If there are mixmatched foreground or background colours, or any other issues, report the issue through the repository issue reporting page on GitHub.  
 You may be asked to supply a screenshot of the "CSS Selector" section of "GtkInspector".  
 You may need to install "GtkInspector":  
-#### Install GTK Development package "libgtk-3-dev":  
+#### Install GTK3 Development package "libgtk-3-dev":  
     sudo apt install --install-recommends libgtk-3-dev
-After installing "GtkInspector", it needs to be enabled within GTK:  
-#### Enable "GtkInspector" GTK debugging tool through GSettings:  
+After installing "GtkInspector", it needs to be enabled within GTK3:  
+#### Enable "GtkInspector" GTK3 debugging tool through GSettings:  
     sudo gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
 After installing and enabling the "GtkInspector", while a GTK3 applcation is focussed, simply press "Control-Shift-I" OR "Control-Shift-D".  
 After it opens, on the top left of "GtkInspector" click the "Select an Object" icon.  
 Alt-tab to your GTK3 application with the issue, select the highlighted area problem.  
-Navigate to the dropdown menu on the left and select "CSS Selector".  
-Screenshot it or take note of all the text for your report.  
+Navigate to the dropdown menu on the top left of "GtkInspector" and select "CSS Selector".  
+Screenshot it (ALT-PrintScreen) or take note of all the text for your report.  
 
 
 ## Updates  
