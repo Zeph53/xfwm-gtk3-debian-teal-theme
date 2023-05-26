@@ -13,7 +13,7 @@ Using XFCE4/GTK3/GTK2 as a desktop environment.
 It can be ported relatively easily, or used as-is in most circumstances.  
 
 
-## Install  
+## Installation  
 Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into:  
 #### /usr/share/themes/  
 #### Install into system theme directory:  
@@ -32,29 +32,27 @@ Rebooting the system, logging out of your user account, changing your selected t
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
-## Uninstall  
+## Uninstallation  
 To uninstall the theme from your system, just remove the directory "Skeuos-debian11-Dark" from  
-"/usr/share/themes/".  
+#### /usr/share/themes/  
 #### Delete theme files from the system:  
     sudo gio trash --force /usr/share/themes/Skeuos-debian11-Dark
 Or remove the directory "Skeuos-debian11-Dark" from your own local files in your home directory in  
-"~/.local/share/themes/".  
+#### ~/.local/share/themes/  
 #### Delete theme files from the home directory:  
     gio trash --force ~/.local/share/themes/Skeuos-debian11-Dark
-After removing the directory "Skeuos-debian11-Dark" from the appropriate parent directory,  
-the cache of installed themes needs to be updated. This can be achieved by rebooting the system,  
-logging out of your user account, changing your selected theme, or restarting theme related processes:  
-#### Terminate panel, window manager, and desktop processes:  
+After uninstalling the directory "Skeuos-debian11-Dark" from the appropriate parent directory, the cache of installed themes needs to be updated. This can be achieved by:  
+Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
+#### Terminate panel, window manager, and desktop processes. Then restart them:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
 
 ## Troubleshooting  
-To embed the scrollbars into window frames (Disable overlay scrolling).  
-May cause issues with some programs, or not work at all anymore.  
+GTK3 uses overlay scrollbars, they get in the way sometimes, a preferable scrollbar would be embedded into window frames.  
+To embed the scrollbars into window frames (Disable overlay scrolling), GTK3 needs overlay scrollbars disabled, which may cause issues with some applications, or not function at all anymore.  
 #### Disable overlay scrollbars:  
     sudo echo 'GTK_OVERLAY_SCROLLING=0' >> /etc/environment
-If there are mixmatched foreground or background colours, or any other issues,  
-report the issue through the repository issue reporting page on GitHub.  
+If there are mixmatched foreground or background colours, or any other issues, report the issue through the repository issue reporting page on GitHub.  
 You may be asked to supply a screenshot of the "CSS Selector" section of "GtkInspector".  
 You may need to install "GtkInspector":  
 #### Install GTK Development package "libgtk-3-dev":  
