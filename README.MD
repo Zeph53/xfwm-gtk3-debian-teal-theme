@@ -60,14 +60,15 @@ You may need to install "GtkInspector":
 After installing "GtkInspector", it needs to be enabled within GTK:  
 #### Enable "GtkInspector" GTK debugging tool through GSettings:  
     sudo gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true
-After installing and enabling the "GtkInspector", while a GTK applcation is focussed,  
-simply press "Control-Shift-I" OR "Control-Shift-D". After it opens, on the top left of "GtkInspector"  
-click the "Select an Object" icon. Alt-tab to your GTK application with the issue,  
-select the highlighted area problem. Navigate to the dropdown menu on the left and select "CSS Selector".  
+After installing and enabling the "GtkInspector", while a GTK3 applcation is focussed, simply press "Control-Shift-I" OR "Control-Shift-D".  
+After it opens, on the top left of "GtkInspector" click the "Select an Object" icon.  
+Alt-tab to your GTK3 application with the issue, select the highlighted area problem.  
+Navigate to the dropdown menu on the left and select "CSS Selector".  
 Screenshot it or take note of all the text for your report.  
 
 
 ## Updates  
+Many corrections to the README.MD.  
 Now with appropriately large square shaped coloured scrollbars.  
 
 
