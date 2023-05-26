@@ -77,6 +77,8 @@ Now with appropriately large square shaped coloured scrollbars.
 
 
 ## Updates Queue  
+Corrections to the XFCE4 Panel theme.  Such as background colour on the workspace widget.  
+Ongoing touchups to README.MD.  
 There are a lot of "OK" buttons with the wrong foreground colours.  
 
 
