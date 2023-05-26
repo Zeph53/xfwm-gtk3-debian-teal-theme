@@ -15,20 +15,19 @@ It can be ported relatively easily, or used as-is in most circumstances.
 
 ## Install  
 Simply download the ZIP or clone the repository and extract the directory "Skeuos-debian11-Dark" into:  
-#### "/usr/share/themes/"  
+#### /usr/share/themes/  
 #### Install into system theme directory:  
     sudo git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/
     sudo cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark /usr/share/themes/
     sudo gio trash --force xfwm-gtk3-debian-teal-theme/
 Alternatively, I think you can extract the directory "Skeuos-debian11-Dark" into your own home directory:  
-"~/.local/share/themes/"  
+#### ~/.local/share/themes/  
 #### Install into user's home directory:  
     git clone https://github.com/Zeph53/xfwm-gtk3-debian-teal-theme/
     cp -r xfwm-gtk3-debian-teal-theme/Skeuos-debian11-Dark ~/.local/share/themes/
     gio trash --force xfwm-gtk3-debian-teal-theme/
-After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory,  
-the cache of installed themes needs to be updated. This can be achieved by rebooting the system,  
-logging out of your user account, changing your selected theme, or restarting theme related processes:  
+After installing the directory "Skeuos-debian11-Dark" to the appropriate parent directory, the cache of installed themes needs to be updated. This can be achieved by:  
+Rebooting the system, logging out of your user account, changing your selected theme, or restarting theme related processes:  
 #### Terminate panel, window manager, and desktop processes. Then restart them:  
     sudo pkill xfce4-panel ; xfce4-panel ; pkill xfwm4 ; xfwm4 --replace ; pkill xfdesktop ; xfdesktop
 
