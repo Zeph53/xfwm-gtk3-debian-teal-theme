@@ -7197,11 +7197,11 @@ window.mousepad.background > box:backdrop.vertical > widget:backdrop > label:bac
 .xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked {}
 .tasklist {
   -XfceTasklist-max-button-size: 16;
-  -XfceTasklist-max-button-length: 10000; }
+  -XfceTasklist-max-button-length: 1000; 
+  -XfceTasklist-min-button-length: 150; 
+  -XfceTasklist-menu-max-width-chars: = 1; }
 .tasklist label {}
 .xfce4-panel.background .tasklist image {
   -gtk-icon-transform: scale(0.5); }
-
-
 
 
