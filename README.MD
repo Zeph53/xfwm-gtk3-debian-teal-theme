@@ -70,6 +70,7 @@ Screenshot it (ALT-PrintScreen) or take note of all the text for your report.
 
 
 ## Updates  
+Fixed window button width for 1920x1080
 Many corrections to the README.MD.  
 Created a readable README.MD.  
 Now with appropriately large square shaped coloured scrollbars.  
