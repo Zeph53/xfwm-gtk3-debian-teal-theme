@@ -7186,22 +7186,63 @@ window.mousepad.background > box.vertical > widget,
 window.mousepad.background > box.vertical > widget > label {
   background-color: rgb(1, 164, 149);
   opacity: 1; 
-  margin-right: -8; 
-  margin-left: -8; }
+  margin-right: -8px; 
+  margin-left: -8px; }
 window.mousepad.background > box:backdrop.vertical > widget:backdrop,
 window.mousepad.background > box:backdrop.vertical > widget:backdrop > label:backdrop {
   background-color: #323643; }
 
-
-.xfce4-panel.background .tasklist button {}
-.xfce4-panel.background .tasklist button:active, .xfce4-panel.background .tasklist button:checked {}
 .tasklist {
   -XfceTasklist-max-button-size: 16;
   -XfceTasklist-max-button-length: 1000; 
   -XfceTasklist-min-button-length: 150; 
   -XfceTasklist-menu-max-width-chars: = 1; }
-.tasklist label {}
-.xfce4-panel.background .tasklist image {
-  -gtk-icon-transform: scale(0.5); }
+  
+.tasklist button:hover box {
+  color: #ffffff; }
+  
+.tasklist button:checked box {
+  color: rgb(1, 164, 149); }
+  
+.tasklist button:checked:hover box {
+  color: #ffffff; }
+  
+.tasklist button box image {
+  -gtk-icon-transform: scale(0.50); 
+  margin-left: -6px;
+  margin-right: -12px; }
+  
+#panel-tasklist-arrow:hover {
+  color: rgb(1, 164, 149); }
 
+#pulseaudio-button:hover {
+  color: rgb(1, 164, 149); }
+  
+#xfce4-clipman-plugin:hover {
+  color: rgb(1, 164, 149); }
 
+#whiskermenu-button:hover {
+  color: rgb(1, 164, 149); }
+
+#launcher-arrow:hover {
+  color: rgb(1, 164, 149); }
+
+window grid menubar menuitem label:backdrop {
+  color: rgb(67, 73, 90); }
+  
+window grid menubar menuitem:hover,
+window grid menubar menuitem window menu menuitem:hover accelerator {
+  color: #000000; }
+  
+window grid menubar menuitem:hover {
+  background-color: rgb(1, 164, 149); }
+
+window grid paned paned grid paned notebook scrolledwindow treeview {
+  color: rgb(67, 73, 90); }
+
+.thunar .warning box label:backdrop {
+  color: rgb(67, 73, 90); }
+
+widget box button image,
+widget button box image {
+  -gtk-icon-transform: scale(.95); }
